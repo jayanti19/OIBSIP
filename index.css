@@ -1,0 +1,125 @@
+/* home styling */
+.home {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("home_bg.jpeg") center/cover no-repeat;
+  }
+  
+  .home nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .home nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .home nav ul li {
+    padding: 0 15px;
+  }
+  
+  .home nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  
+  .home .main-body {
+    text-align: center;
+    color: #ffffff;
+    margin-top: 100px;
+  }
+  
+  .home .main-body h2,
+  .home .main-body H1 {
+    margin: 0;
+  }
+  
+  .home .main-body H3 {
+    color: #ffc107;
+  }
+  
+  .home footer {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .home .icons {
+    margin: 0 10px;
+    color: #ffffff;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  .home .icons i {
+    margin-right: 10px;
+  }
+  
+  /* about styling */
+  .about {
+    padding: 2rem;
+  }
+  
+  .about .abt-content {
+    margin-bottom: 2rem;
+  }
+  
+  .about .abt-content h1 {
+    font-size: 2.5rem;
+    color: #ffc107;
+    margin-bottom: 1rem;
+  }
+  
+  .about .abt-content h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .about .about-me {
+    line-height: 1.5;
+    margin-bottom: 1rem;
+  }
+  
+  .general-box-container{
+    display:inline-flex;
+    /* border: gray 2px solid; */
+    padding:2px;
+    font-size: larger;
+  }
+  .main-col{
+    display: flex;
+    flex-direction: column;
+    margin:5px;    
+  }
+  .main-col .row{
+    display: flex;
+    align-items: center;
+    padding: 2px;
+  }
+  .education{
+    box-sizing: border-box;
+    border-style: 2px solid rgb(0, 0, 0);
+    border-radius: 5%;
+    background: linear-gradient(rgba(3, 3, 3, 0.3), rgba(6, 6, 6, 0.3)) ;
+  }
+  .education .row{
+    border-left: 2px solid black;
+
+  }
